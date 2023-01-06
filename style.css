@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 255, 196);
+     
+    
+}
+header{
+    
+    background-image: linear-gradient(to top, rgb(2, 36, 2), green);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    padding: 20px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    
+    
+}
+
+nav#menu{
+    background-color: rgb(1, 48, 9);
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    
+}
+
+nav#menu > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 0.55s;
+
+}
+
+nav#menu > :hover{
+    color: rgb(151, 253, 164);
+}
+
+ h2#base{
+    font-size: 15px;
+    
+ }
+
+ main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0 , 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+div.video{
+    background-color: rgb(1, 48, 9);
+    position: relative;
+    margin: 0px -20px 30px -20px;
+    padding: 30px;
+    padding-bottom: 56.5%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-image: linear-gradient(to right, rgba(9, 202, 9, 0.466), rgb(1, 48, 9));
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+}
+
+footer{
+    margin: 4px;
+}
+
+section#tituloassunto{
+    font-family: 'droid';
+    color: green;
+    font-weight: 10;
+    font-size: 30px;
+   
+}
+
+nav#primeiraV{
+    font-family: 'droid';
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(1, 61, 1);
+    background-image: linear-gradient(to right, rgba(9, 202, 9, 0.466), white);
+    padding: 3px;
+    
+}
+
+a#link01{
+    background-color: rgba(4, 255, 58, 0.253);
+    color: rgb(2, 48, 17);
+    
+}
+
+p{
+    font-size: 18px;
+    min-width: 320px;
+    
+
+}
+
+section#mascoteN{
+    font-family: 'droid';
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(1, 61, 1);
+    background-image: linear-gradient(to right, rgba(9, 202, 9, 0.466), white);
+    padding: 3px;
+}
+
